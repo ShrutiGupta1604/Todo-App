@@ -92,7 +92,7 @@ const App=()=>
     todo.map(element =>
     {
       return <div>
-      {
+      {  
         element.completed?
         //comp;ete Todo
         <div> 
