@@ -95,7 +95,6 @@ const App=()=>
       {  
         element.completed?
         //comp;ete Todo
-        
         <div> 
         <input type="checkbox" checked onClick={()=>checkListener(element.id)}/> 
         <s>{element.text+" "} </s> 
@@ -109,6 +108,7 @@ const App=()=>
         <button onClick={()=>deleteTodo(element.id)}>Delete</button>
         <button onClick={()=>updateTodo()}>Save Todo</button>
         </div>:
+
 
              //default frotend
         <div>
