@@ -95,6 +95,7 @@ const App=()=>
       {  
         element.completed?
         //comp;ete Todo
+        
         <div> 
         <input type="checkbox" checked onClick={()=>checkListener(element.id)}/> 
         <s>{element.text+" "} </s> 
